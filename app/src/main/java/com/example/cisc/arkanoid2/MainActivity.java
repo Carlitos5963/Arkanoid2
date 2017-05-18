@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent svc=new Intent(this, BackgroundMusicService.class);
-        startService(svc);
+        Intent bm = new Intent(this, BackgroundMusicService.class);
+        startService(bm);
 
         View view = new View(this);
         view.bringToFront();
