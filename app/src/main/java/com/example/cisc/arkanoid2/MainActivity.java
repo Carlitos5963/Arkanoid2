@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent svc=new Intent(this, BackgroundMusicService.class);
+        startService(svc);
+
         View view = new View(this);
         view.bringToFront();
         view.setBackgroundResource(R.drawable.arkanoid);

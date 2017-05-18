@@ -16,7 +16,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".GameActivity" />
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".SettingsActivity" />
+
+
+        <service
+            android:name=".BackgroundMusicService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission=""></service>
     </application>
 
 </manifest>
