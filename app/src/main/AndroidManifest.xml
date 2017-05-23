@@ -18,11 +18,7 @@
         <activity android:name=".GameActivity" />
         <activity android:name=".SettingsActivity" />
 
-        <service
-            android:name=".BackgroundMusicService"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="" />
+
     </application>
 
 </manifest>
