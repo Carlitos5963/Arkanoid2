@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Arkanoid2</string>
+    <string name="app_name" translatable="false">Arkanoid2</string>
     <string name="play">Play!</string>
     <string name="settings">Settings!</string>
     <string name="turnOffMusic">Turn Off Music</string>

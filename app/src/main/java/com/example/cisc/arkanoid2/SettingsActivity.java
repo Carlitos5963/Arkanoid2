@@ -27,13 +27,6 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         switch(v.getId()){
             case R.id.musicButton:
             MainActivity.player.release();
-               // MainActivity.
-                //BackgroundMusicService.
-                //Animation shake = AnimationUtils.loadAnimation(this, R.anim.shake);
-                //final MediaPlayer playButtonSound = MediaPlayer.create(this, R.raw.pacman);
-                //playButtonSound.start();
-                //v.startAnimation(shake);
-                //startActivity(new Intent(MainActivity.this,GameActivity.class));
                 break;
             case R.id.soundFXButton:
                 //final MediaPlayer settingsButtonSound = MediaPlayer.create(this, R.raw.metroiddoor) ;
